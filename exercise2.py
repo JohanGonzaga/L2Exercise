@@ -69,7 +69,7 @@ if __name__ == "__main__":
     cart.add_item(gyoza, 2)
     cart.add_item(gyoza, 1)      # should become qty 3, NOT a second line
     cart.add_item(ramen, 1)
-
+#Added Extra comment for commit
     print(cart)                  # <Cart 2 items, $40.50>
     print(len(cart.lines))       # 2
     print(cart.total())          # 40.5
