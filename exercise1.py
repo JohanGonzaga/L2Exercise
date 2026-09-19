@@ -44,6 +44,6 @@ def main() -> None:
         print(f"{item['name']:<20} ${item['price']:.2f}")
         pass
 
-
+#added extra comment
 if __name__ == "__main__":
     main()
